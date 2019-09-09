@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#C2C2C2"
+    tools:context=".foto15">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="415dp"
+            android:src="@drawable/foto15"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="En esa competencia gane el primer lugar en Parther Stunt  y fue un logro muy importante en mi vida como deportista ya que era la primera vez que gane ese reconocimiento y me alegro haber ganado y poder dar todo mi esfuerzo"
+            android:textSize="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textColor="#000"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menu Principal"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="40dp"
+            android:id="@+id/btnfoto15"
+            style="@style/AppTheme.Boton.Azul"
+            />
+
+    </LinearLayout>
+</ScrollView>

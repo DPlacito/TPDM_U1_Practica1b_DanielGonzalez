@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#C2C2C2"
+    tools:context=".MainActivity">
+
+   <GridLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:columnCount="3"
+       android:rowCount="5">
+
+    <ImageView
+        android:id="@+id/foto1"
+        android:layout_width="100dp"
+        android:layout_height="179dp"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_gravity="center"
+        android:src="@drawable/foto1" />
+
+    <ImageView
+        android:id="@+id/foto2"
+        android:layout_width="100dp"
+        android:layout_height="179dp"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_gravity="center"
+        android:src="@drawable/foto2" />
+
+    <ImageView
+        android:id="@+id/foto3"
+        android:layout_width="100dp"
+        android:layout_height="179dp"
+        android:layout_row="0"
+        android:layout_column="2"
+        android:layout_gravity="center"
+        android:src="@drawable/foto3" />
+
+    <ImageView
+        android:id="@+id/foto4"
+        android:layout_width="100dp"
+        android:layout_height="179dp"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_gravity="center"
+        android:src="@drawable/foto4" />
+
+    <ImageView
+        android:id="@+id/foto5"
+        android:layout_width="100dp"
+        android:layout_height="179dp"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_gravity="center"
+        android:src="@drawable/foto5" />
+
+    <ImageView
+        android:id="@+id/foto6"
+        android:layout_width="100dp"
+        android:layout_height="179dp"
+        android:layout_row="1"
+        android:layout_column="2"
+        android:layout_gravity="center"
+        android:src="@drawable/foto6" />
+
+    <ImageView
+        android:id="@+id/foto7"
+        android:layout_width="100dp"
+        android:layout_height="179dp"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_gravity="center"
+        android:src="@drawable/foto7" />
+
+    <ImageView
+        android:id="@+id/foto8"
+        android:layout_width="100dp"
+        android:layout_height="179dp"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:layout_gravity="center"
+        android:src="@drawable/foto8" />
+
+    <ImageView
+        android:id="@+id/foto9"
+        android:layout_width="100dp"
+        android:layout_height="179dp"
+        android:layout_row="2"
+        android:layout_column="2"
+        android:layout_gravity="center"
+        android:src="@drawable/foto9" />
+
+    <ImageView
+        android:id="@+id/foto10"
+        android:layout_width="100dp"
+        android:layout_height="179dp"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:layout_gravity="center"
+        android:src="@drawable/foto10" />
+
+    <ImageView
+        android:id="@+id/foto11"
+        android:layout_width="100dp"
+        android:layout_height="179dp"
+        android:layout_row="3"
+        android:layout_column="1"
+        android:layout_gravity="center"
+        android:src="@drawable/foto11" />
+
+    <ImageView
+        android:id="@+id/foto12"
+        android:layout_width="100dp"
+        android:layout_height="179dp"
+        android:layout_row="3"
+        android:layout_column="2"
+        android:layout_gravity="center"
+        android:src="@drawable/foto12" />
+
+    <ImageView
+        android:id="@+id/foto13"
+        android:layout_width="100dp"
+        android:layout_height="179dp"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:layout_gravity="center"
+        android:src="@drawable/foto13" />
+
+    <ImageView
+        android:id="@+id/foto14"
+        android:layout_width="100dp"
+        android:layout_height="179dp"
+        android:layout_row="4"
+        android:layout_column="1"
+        android:layout_gravity="center"
+        android:src="@drawable/foto14" />
+
+    <ImageView
+        android:id="@+id/foto15"
+        android:layout_width="100dp"
+        android:layout_height="179dp"
+        android:layout_row="4"
+        android:layout_column="2"
+        android:src="@drawable/foto15" />
+
+   </GridLayout>
+</ScrollView>

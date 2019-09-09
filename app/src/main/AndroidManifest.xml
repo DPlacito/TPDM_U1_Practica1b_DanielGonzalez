@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mx.edu.ittepic.tpdm_u1_practica1b_danielgonzalez">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".foto15"></activity>
+        <activity android:name=".foto14" />
+        <activity android:name=".foto13" />
+        <activity android:name=".foto12" />
+        <activity android:name=".foto11" />
+        <activity android:name=".foto10" />
+        <activity android:name=".foto9" />
+        <activity android:name=".foto8" />
+        <activity android:name=".foto7" />
+        <activity android:name=".foto6" />
+        <activity android:name=".foto5" />
+        <activity android:name=".foto4" />
+        <activity android:name=".foto3" />
+        <activity android:name=".foto2" />
+        <activity android:name=".foto1" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

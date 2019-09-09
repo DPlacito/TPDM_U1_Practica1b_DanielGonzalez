@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C2C2C2"
+    tools:context=".foto1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="468dp"
+            android:layout_height="576dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="40dp"
+            android:src="@drawable/foto1"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="En ese entrenamiento saque un elemento llamado FULL UP!! Estaba muy feliz ese dia por que me habia retado a mi mismo y logre hacer algo increible"
+            android:textColor="#000000">
+        </TextView>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menu Principal"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="40dp"
+            android:id="@+id/btnfoto1"
+            style="@style/AppTheme.Boton.Azul"
+            />
+
+
+    </LinearLayout>
+</ScrollView>
